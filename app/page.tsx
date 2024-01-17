@@ -38,7 +38,7 @@ export default function Home() {
   }
 
   return (
-    <main className="flex h-full min-h-screen max-w-3xl flex-col items-center p-11 md:min-h-0">
+    <main className="flex h-full min-h-screen max-w-4xl flex-col items-center p-11 md:min-h-0">
       <Image src={logo} alt="logo" />
       <h1 className="text-neutral-gray mt-8 text-center text-[1.375rem] font-light leading-8 md:text-[3rem] md:leading-[3.75rem]">
         We are launching{" "}
