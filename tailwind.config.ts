@@ -19,6 +19,7 @@ const config: Config = {
         neutral: {
           gray: "hsl(0, 0%, 59%)",
           "very-dark-blue": "hsl(209, 33%, 12%)",
+          blue: "hsl(223, 53%, 83%)",
         },
       },
     },

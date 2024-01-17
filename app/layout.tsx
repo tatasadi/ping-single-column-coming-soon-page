@@ -29,7 +29,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${libreFranklin.className} flex min-h-screen flex-col items-center justify-center`}
+        className={`${libreFranklin.className} text-neutral-very-dark-blue flex min-h-screen flex-col items-center justify-center `}
       >
         {children}
         <Reference />
