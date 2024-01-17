@@ -37,7 +37,7 @@ export default function Home() {
   }
 
   return (
-    <main className="flex h-full min-h-screen max-w-3xl flex-col items-center p-11">
+    <main className="flex h-full min-h-screen max-w-3xl flex-col items-center p-11 md:min-h-0">
       <Image src={logo} alt="logo" />
       <h1 className="text-neutral-gray mt-8 text-center text-[1.375rem] font-light leading-8 md:text-[3rem] md:leading-[3.75rem]">
         We are launching{" "}
@@ -84,7 +84,7 @@ export default function Home() {
       <div>
         <Image src={illustration} alt="illustration" className="mt-[4.5rem]" />
       </div>
-      <div className="mb-20 mt-auto flex flex-col items-center gap-6">
+      <div className="mb-20 mt-auto flex flex-col items-center gap-6 md:mt-20">
         <div className="flex gap-3">
           <a
             className="border-secondary-pale-blue text-primary-blue text-md hover:bg-primary-blue focus:bg-primary-blue grid h-8 w-8 cursor-pointer place-content-center rounded-full border px-3 py-2 hover:text-white focus:text-white"
