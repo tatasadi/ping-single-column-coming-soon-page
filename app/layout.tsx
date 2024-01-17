@@ -1,7 +1,6 @@
 import type { Metadata } from "next"
 import { Libre_Franklin } from "next/font/google"
 import "./globals.css"
-import Reference from "./components/Reference"
 
 const libreFranklin = Libre_Franklin({
   subsets: ["latin"],
@@ -32,7 +31,6 @@ export default function RootLayout({
         className={`${libreFranklin.className} text-neutral-very-dark-blue flex min-h-screen flex-col items-center justify-center `}
       >
         {children}
-        <Reference />
       </body>
     </html>
   )

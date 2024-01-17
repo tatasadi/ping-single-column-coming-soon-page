@@ -5,6 +5,7 @@ import illustration from "../public/images/illustration-dashboard.png"
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa"
 import { z } from "zod"
 import { useState } from "react"
+import Reference from "./components/Reference"
 
 const emailSchema = z.object({
   email: z
@@ -109,6 +110,7 @@ export default function Home() {
           © Copyright Ping. All rights reserved.
         </p>
       </div>
+      <Reference />
     </main>
   )
 }
