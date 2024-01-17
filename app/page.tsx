@@ -21,7 +21,7 @@ export default function Home() {
           placeholder="Your email address..."
         />
         <button
-          className="bg-primary-blue w-full rounded-full px-8 py-3 text-xs font-semibold leading-4 text-white shadow-[0_5px_10px_2px_rgba(76,123,243,0.23)] sm:w-1/3 md:text-base"
+          className="bg-primary-blue w-full cursor-pointer rounded-full px-8 py-3 text-xs font-semibold leading-4 text-white shadow-[0_5px_10px_2px_rgba(76,123,243,0.23)] hover:opacity-80 focus:opacity-80 sm:w-1/3 md:text-base"
           type="submit"
         >
           Notify Me
@@ -33,22 +33,22 @@ export default function Home() {
       <div className="mb-20 mt-auto flex flex-col items-center gap-6">
         <div className="flex gap-3">
           <a
-            className="border-secondary-pale-blue grid h-8 w-8 place-content-center rounded-full border px-3 py-2"
+            className="border-secondary-pale-blue text-primary-blue text-md hover:bg-primary-blue focus:bg-primary-blue grid h-8 w-8 cursor-pointer place-content-center rounded-full border px-3 py-2 hover:text-white focus:text-white"
             href="https://facebook.com"
           >
-            <FaFacebookF className="text-primary-blue text-md" />
+            <FaFacebookF />
           </a>
           <a
-            className="border-secondary-pale-blue grid h-8 w-8 place-content-center rounded-full border px-3 py-2"
+            className="border-secondary-pale-blue text-primary-blue text-md hover:bg-primary-blue focus:bg-primary-blue grid h-8 w-8 place-content-center rounded-full border px-3 py-2 hover:text-white focus:text-white"
             href="https://twitter.com"
           >
-            <FaTwitter className="text-primary-blue text-md" />
+            <FaTwitter />
           </a>
           <a
-            className="border-secondary-pale-blue grid h-8 w-8 place-content-center rounded-full border px-3 py-2"
+            className="border-secondary-pale-blue text-primary-blue text-md hover:bg-primary-blue focus:bg-primary-blue grid h-8 w-8 place-content-center rounded-full border px-3 py-2 hover:text-white focus:text-white"
             href="https://instagram.com"
           >
-            <FaInstagram className="text-primary-blue text-md" />
+            <FaInstagram />
           </a>
         </div>
         <p className="text-neutral-gray text-[0.625rem] font-light md:text-xs">
