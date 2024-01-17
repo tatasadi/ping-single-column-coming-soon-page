@@ -90,18 +90,21 @@ export default function Home() {
           <a
             className="border-secondary-pale-blue text-primary-blue text-md hover:bg-primary-blue focus:bg-primary-blue grid h-8 w-8 cursor-pointer place-content-center rounded-full border px-3 py-2 hover:text-white focus:text-white"
             href="https://facebook.com"
+            aria-label="facebook"
           >
             <FaFacebookF />
           </a>
           <a
             className="border-secondary-pale-blue text-primary-blue text-md hover:bg-primary-blue focus:bg-primary-blue grid h-8 w-8 place-content-center rounded-full border px-3 py-2 hover:text-white focus:text-white"
             href="https://twitter.com"
+            aria-label="twitter"
           >
             <FaTwitter />
           </a>
           <a
             className="border-secondary-pale-blue text-primary-blue text-md hover:bg-primary-blue focus:bg-primary-blue grid h-8 w-8 place-content-center rounded-full border px-3 py-2 hover:text-white focus:text-white"
             href="https://instagram.com"
+            aria-label="instagram"
           >
             <FaInstagram />
           </a>
